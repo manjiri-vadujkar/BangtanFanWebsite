@@ -1,2 +1,5 @@
 # BangtanFanWebsite
-Fan website for BTS
+Fan Website for BTS
+
+Contributers
+Manjiri Vadujkar
