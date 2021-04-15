@@ -1,6 +1,12 @@
+// <head><link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
+// this statements needed in the body
+// <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+// 				<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+// 				<script src="./nav-bar.js?id=index" id="nav-bar"></script>
+
 $(function () {
     var bar = '';
-    bar += '<nav class="navbar navbar-default" role="navigation">';
+    bar += '<nav class="navbar navbar-inverse" role="navigation">';
     bar += '<div class="container-fluid">';
     bar += '<div>';
     bar += '<ul class="nav navbar-nav">';
@@ -11,7 +17,7 @@ $(function () {
     bar += '</div>';
     bar += '</div>';
     bar += '</nav>';
- 
+		bar += '<style>.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {background-color:#9b3675;}nav.navbar-inverse ul.navbar-nav a:hover,nav.navbar-inverse ul.navbar-nav a:visited,nav.navbar-inverse ul.navbar-nav a:focus,nav.navbar-inverse ul.navbar-nav a:active{background:#9b3675;}</style>'
     $("#main-bar").html(bar);
  
     var id = getValueByName("id");
