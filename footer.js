@@ -7,7 +7,7 @@
 $(function (){
 
 var bar = '';
-bar += '<footer class=" text-center text-white bg-purple">';
+	bar += '<footer class="text-center text-white bg-purple">';
 bar += '		<div class="container p-4 pb-0">';
 bar += '		<!--Section:title-->';
 bar += '		<div class="text-center text-white">';
@@ -45,16 +45,19 @@ bar += '';
 bar += '		</footer>';
 bar += '<style>';
 bar += 'footer{';
-bar += '		 position: fixed;';
-bar += '            padding: 10px 10px 0px 10px;';
+bar += '		 	position: static;';
+bar +='				margin-top: 50px;';
+bar +='				padding: 10px 10px 0px 10px;';
 bar += '            bottom: 0;';
 bar += '            width: 100%;';
-bar += '            /* Height of the footer*/ ';
 bar += '}';
+bar += '.mb-4{ margin-bottom: 0px !important;}'
 bar += '.bg-purple{';
-bar += '		background-color:#9b3675';
+bar += '		background-color: black';
 bar += '}</style>';
 $("#footer").html(bar);
 });
  
-
+//og bg color - #9b3675
+//bar += '		 position: fixed;';
+//bar += '            padding: 10px 10px 0px 10px;';
