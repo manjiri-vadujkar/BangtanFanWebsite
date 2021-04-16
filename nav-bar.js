@@ -1,7 +1,9 @@
+// need to be modified for the latest bootstrap 
 // <head><link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
 // this statements needed in the body
-// <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+//		<div id="main-bar"></div>
 // 				<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+// <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 // 				<script src="./nav-bar.js?id=index" id="nav-bar"></script>
 
 $(function () {
