@@ -1,17 +1,11 @@
 body {
     background-color: #702085;
-    color: aliceblue;
+    color: white;
 }
 
 .title {
    margin: 30px;
    text-align: center;
-}
-
-.aboutBTS {
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
 }
 
 .aboutBTSImg {
@@ -29,6 +23,8 @@ body {
 
 .carousel {
     margin: 30px;
+    border-radius: 50px;
+  overflow: hidden;
 }
 
 .aboutCarousel {
@@ -56,4 +52,13 @@ body {
     margin: auto;
     max-width: 400px !important;
     max-height: 500px !important;
+}
+
+.carousel, .slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+  border-radius: 50px;
+  overflow: hidden;
 }

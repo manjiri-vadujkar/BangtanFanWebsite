@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(112,32,133,1);
+    color: aliceblue;
+}
+
+.title {
+   margin: 30px;
+   text-align: center;
+}
+
+.Tlist {
+    background-color: #ffe6ff;
+    color:#702085;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-color: white;
+    border-style: double;
+    border-radius: 50px;
+}
