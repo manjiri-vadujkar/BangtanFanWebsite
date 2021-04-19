@@ -1,6 +1,7 @@
 body {
-    background-color: rgb(112,32,133,1);
-    color: aliceblue;
+    background-color: #ffe6ff;
+    color: #702085;
+    font-weight: 500;
 }
 
 .title {
@@ -15,7 +16,7 @@ body {
     margin: auto;
     padding: 10px;
     text-align: center;
-    border-color: white;
+    border-color: #702085;
     border-style: double;
     border-radius: 50px;
 }

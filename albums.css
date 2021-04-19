@@ -1,0 +1,42 @@
+body {
+    background-color: #ffe6ff;
+    color: #702085;
+    font-weight: 500;
+}
+
+.title {
+   margin: 30px;
+   text-align: center;
+}
+
+.albumGallery {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.albumGallery img {
+	width: 150px;
+	height: 200px;
+	transition: all 1s;
+}
+
+.albumGallery img:hover {
+	transform: scale(1.1);
+}
+
+.albums {
+    padding: 20px;
+    border-color: #702085;
+    border-style: solid;
+}
+
+.firstEra > hr {
+    border-color: #702085;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}

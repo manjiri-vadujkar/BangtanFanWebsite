@@ -1,6 +1,7 @@
 body {
-    background-color: #702085;
-    color: white;
+    background-color: #ffe6ff;
+    color: #702085;
+    font-weight: 500;
 }
 
 .title {
@@ -26,8 +27,8 @@ body {
 }
 
 .aboutCarousel {
-    background-color:  #ffe6ff;
-    color: #990099;
+    background-color:  #990099;
+    color: #ffe6ff;
     font-weight: 500;
     width: 80%;
     height: fit-content;
@@ -37,6 +38,11 @@ body {
 .carousel-inner{
     width:100%;  
     max-height: fit-content !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert();
 }
 
 .card-body {

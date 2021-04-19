@@ -14,7 +14,7 @@ $(function () {
     bar += '<ul class="navbar-nav">';
     bar += '<li class="nav-item" id="home"><a class="nav-link" href="home.html">Home</a></li>';
     bar += '<li class="nav-item" id="about"><a class="nav-link" href="about.html">About</a></li>';
-    bar += '<li class="nav-item" id="gallery"><a class="nav-link" href="gallery.html">Gallery</a></li>';
+    bar += '<li class="nav-item" id="albums"><a class="nav-link" href="albums.html">Albums</a></li>';
     bar += '<li class="nav-item" id="timeline"><a class="nav-link" href="timeline.html">Timeline</a></li>';
     bar += '</ul>';
     bar += '</div>';
